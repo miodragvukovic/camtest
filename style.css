@@ -194,6 +194,11 @@ section {
     font-size: 22px;
     padding: 5px 15px;
     font-weight: 400;
+    transition: 0.5s;
+}
+
+.massage-fitness a:hover {
+    opacity: 0.6;
 }
 
 .massage-fitness li:last-child {
@@ -317,4 +322,22 @@ footer .social-links ul {
 
 .copyright {
     font-size: 12px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    right: 10px;
+    left: unset;
+    top: unset;
+    bottom: 10px;
+    color: #000;
+    width: 40px;
+    background-color: #fff;
+}
+.swiper-button-prev {
+    right: 55px;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 15px;
 }
