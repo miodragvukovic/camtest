@@ -341,3 +341,45 @@ footer .social-links ul {
 .swiper-button-prev:after {
     font-size: 15px;
 }
+
+@media (max-width: 1024px) {
+    .product h3 {
+        height: 150px;
+        width: 150px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) {
+    .map figure {
+        margin: 30px 0;
+    }
+    .col-25,
+    .col-33,
+    .col-30,
+    .col-50,
+    .col-70,
+    .service {
+        width: 100%;
+        margin-right: 0;
+    }
+    .service {
+        padding-top: 75px;
+    }
+    .contact-card {
+        margin-bottom: 25px;
+    }
+    .nav-wrap {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .pl-30 {
+        padding-left: 0;
+    }
+    .appointment-btn {
+        white-space: nowrap;
+    }
+    #about figure {
+        margin: 20px 0;
+    }
+}
